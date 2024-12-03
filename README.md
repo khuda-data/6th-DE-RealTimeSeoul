@@ -35,7 +35,9 @@ Kafka Connect: 특정 작 업 형태를 템플릿화 <br>
 <br>
 
 ## 프로젝트 과정
-File Source Connector와 HDFS Sink Connector에 이어, HTTP Connector를 활용해 데이터 소스에서 Extract 과정을 수행하고자 한다. 이후 Kafka Streams를 활용해 많은 데이터를 분기하고 적절한 토픽에 전달함으로써 Transform 과정을 수행한다. 마지막으로 S3 Sink Connector를 활용해 말단 토픽에 적재된 데이터를 S3 Bucket에 저장함으로써 Load 과정을 수행한다.
+File Source Connector와 HDFS Sink Connector에 이어, HTTP Connector를 활용해 데이터 소스에서 Extract 과정을 수행하고자 한다. <br>
+이후 Kafka Streams를 활용해 많은 데이터를 분기하고 적절한 토픽에 전달함으로써 Transform 과정을 수행한다. <br>
+마지막으로 S3 Sink Connector를 활용해 말단 토픽에 적재된 데이터를 S3 Bucket에 저장함으로써 Load 과정을 수행한다.
 
 ![image](https://github.com/user-attachments/assets/b3809587-15b8-4ca6-9206-2bee78ba3334)
 1. 데이터 소스 정의 : 인구정보 , 도로정보 , 주차장 , 전기차충전소 , 대중교통 등의 수집해야 할 데이터 소스로 정의한다.
@@ -50,7 +52,7 @@ File Source Connector와 HDFS Sink Connector에 이어, HTTP Connector를 활용
 <br><br>
 
 ## 프로젝트 결과
-본 프로젝트의 목표는 Kafka 를 기반으로 ' 서울시 실시간 도시데이터' API를 활용해 사용자에게 필요한 다양한 용도에 따라 세부 API 를 제공하는 것이다.
+본 프로젝트의 목표는 Kafka 를 기반으로 ' 서울시 실시간 도시데이터' API를 활용해 사용자에게 필요한 다양한 용도에 따라 세부 API 를 제공하는 것이다. <br>
 Kafka Streams를 활용해 API 로부터 응답받은 총 209 개의 인자를 핫스팟, 도로(주차장, 전기차 충전소 등), 도로 교통 사고, 대중교통(버스, 지하철 등), 업종 등 총 12 개의 토픽으로 분류했다. 이를 통해 특정 카테고리의 데이터가 필요한 사용자는 S3 Bucket에 접근하여 원하는 데이터를 손쉽게 활용할 수 있도록 구성했다.
 <br><br>
 
