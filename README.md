@@ -55,5 +55,5 @@ Kafka Streams를 활용해 API 로부터 응답받은 총 209 개의 인자를 �
 <br><br>
 
 ## 참고문헌
-• Apache Kafka 애플리케이션 프로그래밍 with JAVA, 최원영
+• Apache Kafka 애플리케이션 프로그래밍 with JAVA, 최원영 <br>
 • 서울시 실시간 도시데이터 매뉴얼
