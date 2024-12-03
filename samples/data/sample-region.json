@@ -1,0 +1,51 @@
+{
+  "region": {
+    "AREA_NM": "광화문·덕수궁",
+    "AREA_CD": "POI009",
+    "LIVE_PPLTN_STTS": {
+      "AREA_CONGEST_LVL": "보통",
+      "AREA_CONGEST_MSG": "사람이 몰려있을 수 있지만 크게 붐비지는 않아요. 도보 이동에 큰 제약이 없어요.",
+      "AREA_PPLTN_MIN": 34000,
+      "AREA_PPLTN_MAX": 36000,
+      "MALE_PPLTN_RATE": 50.3,
+      "FEMALE_PPLTN_RATE": 49.7,
+      "PPLTN_TIME": "2024-12-03 16:15"
+    },
+    "FCST_PPLTN": [
+      {
+        "FCST_TIME": "2024-12-03 17:00",
+        "FCST_CONGEST_LVL": "약간 붐빔",
+        "FCST_PPLTN_MIN": 32000,
+        "FCST_PPLTN_MAX": 34000
+      },
+      {
+        "FCST_TIME": "2024-12-03 18:00",
+        "FCST_CONGEST_LVL": "약간 붐빔",
+        "FCST_PPLTN_MIN": 32000,
+        "FCST_PPLTN_MAX": 34000
+      }
+    ],
+    "ROAD_TRAFFIC_STTS": {
+      "AVG_ROAD_DATA": {
+        "ROAD_MSG": "해당 장소로 이동·진입시 시간이 다소 소요될 수 있어요.",
+        "ROAD_TRAFFIC_IDX": "서행",
+        "ROAD_TRAFFIC_SPD": 17,
+        "ROAD_TRAFFIC_TIME": "2024-12-03 16:35"
+      },
+      "DETAILED_LINKS": [
+        {
+          "LINK_ID": "1000000301",
+          "ROAD_NM": "종로",
+          "SPD": 24,
+          "IDX": "서행"
+        },
+        {
+          "LINK_ID": "1000004802",
+          "ROAD_NM": "우정국로",
+          "SPD": 15,
+          "IDX": "서행"
+        }
+      ]
+    }
+  }
+}
